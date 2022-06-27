@@ -18,7 +18,7 @@ import java.io.File;
 import java.util.List;
 
 @Controller
-@Re
+@Controller
 public class HelloController {
     @RequestMapping(path = "/control/hello")
     public  String sayHello(String username)
